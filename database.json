@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nama": "maulana",
+      "nim": "123",
+      "alamat": "concat"
+    },
+    {
+      "id": 2,
+      "nama": "wiki",
+      "nim": "123",
+      "alamat": "jogja"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+/*============= Button STYLE ===========*/
+
+.my-button {
+  /* Green */
+  float: left;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-blue {
+  background-color: #008cba;
+}
+
+/* Blue */
+
+.btn-red {
+  background-color: #f44336;
+}
+
+/* Red */
+
+.btn-black {
+  background-color: #e7e7e7;
+  color: black;
+}
+
+/* Gray */
+
+.btn-yellow {
+  background-color: #ff9b04fa;
+}
+
+/*=======================*/
+/*============= form STYLE ===========*/
+
+.form-inline {
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 5px 5px 0;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 10px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/*========================*/
+/*  =========== Alert Satyle CSS  ============== */
+
+.alert {
+  padding: 20px;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.alert-success {
+  background-color: #04993d;
+}
+
+.alert-info {
+  background-color: #008cba;
+}
+
+/* Blue */
+
+.alert-Error {
+  background-color: #f44336;
+}
+
+/* Gray */
+
+.alert-warning {
+  background-color: #ff9b04fa;
+}
